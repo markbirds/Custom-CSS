@@ -1,0 +1,65 @@
+.loader {
+    border: 6px solid #f3f3f3;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    -webkit-animation: spin 0.5s linear infinite; /* Safari */
+    animation: spin 0.5s linear infinite;
+    display: inline-block;
+    margin: 5px;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.spin-primary{
+    border-top: 6px solid #007bff;
+    border-right: 6px solid #007bff;
+    border-left: 6px solid #007bff;
+}
+
+.spin-secondary{
+    border-top: 6px solid #6c757d;
+    border-right: 6px solid #6c757d;
+    border-left: 6px solid #6c757d;
+}
+
+.spin-success{
+    border-top: 6px solid #28a745;
+    border-right: 6px solid #28a745;
+    border-left: 6px solid #28a745;
+}
+
+.spin-info{
+    border-top: 6px solid #17a2b8;
+    border-right: 6px solid #17a2b8;
+    border-left: 6px solid #17a2b8;
+}
+
+.spin-warning{
+    border-top: 6px solid #ffc107;
+    border-right: 6px solid #ffc107;
+    border-left: 6px solid #ffc107;
+}
+
+.spin-danger{
+    border-top: 6px solid #dc3545;
+    border-right: 6px solid #dc3545;
+    border-left: 6px solid #dc3545;
+}
+
+.spin-dark{
+    border-top: 6px solid #343a40;
+    border-right: 6px solid #343a40;
+    border-left: 6px solid #343a40;
+}
+
+
