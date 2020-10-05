@@ -14,3 +14,7 @@ Extracted the styles of bootstrap components I often use. Also copied some codes
 - Tables
 - Tabs
 - Typewriter
+
+### License
+
+This project is licensed under the terms of the [MIT License](LICENSE).
