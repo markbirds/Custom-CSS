@@ -5,6 +5,7 @@ Extracted the styles of bootstrap components I often use. Also copied some codes
 - Alerts
 - Badges
 - Buttons
+- Cards
 - Flexbox
 - Inputs
 - Modal
@@ -14,6 +15,7 @@ Extracted the styles of bootstrap components I often use. Also copied some codes
 - Tables
 - Tabs
 - Typewriter
+- Typography
 
 ### License
 
